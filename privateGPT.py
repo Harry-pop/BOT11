@@ -9,6 +9,7 @@ import chromadb
 import os
 import argparse
 import time
+import openthaigpt
 
 if not load_dotenv():
     print("Could not load .env file or it is empty. Please check if it exists and is readable.")
